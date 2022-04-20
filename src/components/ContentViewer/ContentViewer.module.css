@@ -1,0 +1,8 @@
+.contentViewer {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.listItem {
+  list-style-position: inside;
+}
