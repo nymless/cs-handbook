@@ -1,3 +1,7 @@
 # Computer Science Handbook
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<!-- Build preview: <https://nymless.github.io/> -->
+
+* `yarn install`
+* `yarn start`
+* `yarn build`

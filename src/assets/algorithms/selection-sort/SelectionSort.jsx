@@ -3,23 +3,23 @@ export const SelectionSort = () => {
     <>
       <p>Время выполнения O(n²).</p>
       <ol>
-        <li class="list-item">
+        <li className="list-item">
           Для иммутабельности входящих данных создается копия изначального
           массива.
         </li>
-        <li class="list-item">
+        <li className="list-item">
           Создается новый пустой массив для отсортированных значений.
         </li>
-        <li class="list-item">
+        <li className="list-item">
           Производится поиск наименьшего значения в массиве.
         </li>
-        <li class="list-item">
+        <li className="list-item">
           Наименьшее значение помещается в новый массив.
         </li>
-        <li class="list-item">
+        <li className="list-item">
           Наименьшее значение удаляется из клона изначального массива.
         </li>
-        <li class="list-item">
+        <li className="list-item">
           Алгоритм повторяется с п.2. до тех пор пока клон изначального массива
           не опустеет.
         </li>
