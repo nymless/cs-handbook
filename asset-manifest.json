@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/cs-handbook/static/css/main.f571134a.css",
-    "main.js": "/cs-handbook/static/js/main.bc8d2590.js",
+    "main.js": "/cs-handbook/static/js/main.67cfe809.js",
     "static/js/787.ddac8725.chunk.js": "/cs-handbook/static/js/787.ddac8725.chunk.js",
     "index.html": "/cs-handbook/index.html",
     "main.f571134a.css.map": "/cs-handbook/static/css/main.f571134a.css.map",
-    "main.bc8d2590.js.map": "/cs-handbook/static/js/main.bc8d2590.js.map",
+    "main.67cfe809.js.map": "/cs-handbook/static/js/main.67cfe809.js.map",
     "787.ddac8725.chunk.js.map": "/cs-handbook/static/js/787.ddac8725.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f571134a.css",
-    "static/js/main.bc8d2590.js"
+    "static/js/main.67cfe809.js"
   ]
 }
