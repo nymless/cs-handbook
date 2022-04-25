@@ -1,4 +1,5 @@
-export function quickSort(array) {
+export const quickSort = `
+function quickSort(array) {
   if (array.length < 2) {
     return array;
   }
@@ -17,3 +18,4 @@ export function quickSort(array) {
 
   return [...quickSort(less), pivot, ...quickSort(greater)];
 }
+`;

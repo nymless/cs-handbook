@@ -1,7 +1,7 @@
-import styles from './ContentViewer.module.css';
-import { Routes, Route } from 'react-router-dom';
-import { Content } from './Content/Content';
+import { Route, Routes } from 'react-router-dom';
 import { Algorithms } from '../../models/algorithms';
+import { Content } from './Content/Content';
+import styles from './ContentViewer.module.css';
 import { Home } from './Home/Home';
 
 type Props = {
@@ -12,7 +12,7 @@ export const ContentViewer: React.FC<Props> = (props) => {
   return (
     <div className={styles.contentViewer}>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Home />}></Route>
         {props.algorithms.map((item, index) => {
           return (
             <Route
@@ -22,7 +22,7 @@ export const ContentViewer: React.FC<Props> = (props) => {
                 <Content
                   name={item.name}
                   text={item.text}
-                  code={String(item.code)}
+                  code={item.code}
                 />
               }
             />

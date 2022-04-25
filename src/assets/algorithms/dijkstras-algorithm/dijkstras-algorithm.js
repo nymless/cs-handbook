@@ -1,11 +1,5 @@
-/**
- * Finds shortest-path tree for positive weighted directed acyclic graph.
- * @param {Object} graph { a: { b: number, c: number }, ... }.
- * @param {string} source "a".
- * @returns {Object} { weights: { b: number, c: number, ... }, parents: { b: a, ... } }.
- */
-
-export function dijkstrasAlgorithm(graph, source) {
+export const dijkstrasAlgorithm = `
+function dijkstrasAlgorithm(graph, source) {
   let weights = new Weights(graph, source);
   let parents = new Parents(graph);
   let processed = [];
@@ -69,3 +63,4 @@ export function dijkstrasAlgorithm(graph, source) {
     return lowestCostNode;
   }
 }
+`;

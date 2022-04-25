@@ -24,7 +24,7 @@ export const algorithms = [
   },
   {
     name: 'Быстрая сортировка',
-    path: '/quicksort',
+    path: '/quick-sort',
     code: quickSort,
     text: QuickSort,
   },

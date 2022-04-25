@@ -1,14 +1,14 @@
 import { BrowserRouter } from 'react-router-dom';
 import './App.css';
-import { algorithms } from './models/algorithms';
 import { ContentViewer } from './components/ContentViewer/ContentViewer';
-import { Menu } from './components/Menu/Menu';
-import { Header } from './components/Header/Header';
 import { Footer } from './components/Footer/Footer';
+import { Header } from './components/Header/Header';
+import { Menu } from './components/Menu/Menu';
+import { algorithms } from './models/algorithms';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/cs-handbook">
       <div className="wrapper">
         <header className="header">
           <Header />

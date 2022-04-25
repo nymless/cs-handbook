@@ -1,7 +1,7 @@
-import styles from './Menu.module.css';
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Algorithms } from '../../models/algorithms';
+import styles from './Menu.module.css';
 
 type Props = {
   algorithms: Algorithms;

@@ -1,4 +1,5 @@
-export function breadthFirstSearch(graph, vertex) {
+export const breadthFirstSearch = `
+function breadthFirstSearch(graph, vertex) {
   let searchQueue = [];
   searchQueue.push(...graph[vertex]);
   let searched = [];
@@ -20,3 +21,4 @@ export function breadthFirstSearch(graph, vertex) {
 
   function isDesired(node) {} // return true if node is correct or false otherwise
 }
+`;

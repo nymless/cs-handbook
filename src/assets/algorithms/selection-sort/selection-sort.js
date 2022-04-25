@@ -1,4 +1,5 @@
-export function selectionSort(array) {
+export const selectionSort = `
+function selectionSort(array) {
   let temp = [...array];
   let sorted = [];
 
@@ -24,3 +25,4 @@ export function selectionSort(array) {
     return smallestIndex;
   }
 }
+`;

@@ -1,3 +1,4 @@
+export const binarySearch = `
 export function binarySearch(array, item) {
   let low = 0;
   let high = array.length - 1;
@@ -17,3 +18,4 @@ export function binarySearch(array, item) {
 
   return -1;
 }
+`;
